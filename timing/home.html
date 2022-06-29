@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./home.css">
+    <script>
+        !(function (doc, win) {
+            var docEle = doc.documentElement,
+                evt =
+                    "onorientationchange" in window
+                        ? "orientationchange"
+                        : "resize",
+                fn = function () {
+                    var width = docEle.clientWidth;
+                    width &&
+                        (docEle.style.fontSize = 14 * (width / 320) + "px");
+                };
+
+            win.addEventListener(evt, fn, false);
+            doc.addEventListener("DOMContentLoaded", fn, false);
+        })(document, window);
+    </script>
+</head>
+
+<body>
+
+    <div id="mobile_page">
+        <div class="top">
+            <div class="top_content">
+                <div class="banner">
+                    <div class="logo_content">
+                        <img src="http://www.yuanqishaonian.com/images/index_logo.png" />
+                    </div>
+                    <a href="about.html" target="_blank">联系我们</a>
+                </div>
+                <div class="left">
+                    <p class="mtb">
+                        缘分餐厅是一款集骰子、唱歌、游戏、喝酒于一身的线上酒吧<br>
+                        在这里，有趣的灵魂和精致的皮囊，可以二者兼得。不仅能像线下一样轻松认识新朋友，而且还不会有任何烦恼与担忧。<br>
+                        快来缘分餐厅遇见有趣的人吧～
+                    </p>
+                    <div class="image">
+                        <a id="mob-ios-btn" href="https://apps.apple.com/cn/app/id1580684135">
+                            <img src="http://www.yuanqishaonian.com/images/ios.png" id="mob-ios"
+                                style="margin-right: 26px" alt="" class="tap" />
+                        </a>
+                        <a id="mob-andriod-btn" href="https://yfct.kr-cell.com/system/download">
+                            <img src="http://www.yuanqishaonian.com/images/android.png" id="mob-andriod" alt=""
+                                class="tap" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="session intr04">
+            <img class="intr_img" src="http://www.yuanqishaonian.com/images/intr01.png" />
+            <img src="./01.png" />
+        </div>
+        <div class="session intr05">
+            <div class="session_content">
+                <div class="intr_content">
+                    <img class="intr_tip" src="http://www.yuanqishaonian.com/images/tip.png" />
+                    <h3>线上酒吧，一起High玩</h3>
+                    <p>
+                        姐妹团里轻松组局<br />
+                        举杯热聊<br />
+                        酒吧游戏<br />
+                        …<br />
+                        没有酒吧的嘈杂<br />
+                        只有动听的声音和有趣的灵魂
+                    </p>
+                </div>
+                <div class="intr_image_content">
+                    <img class="intr_image" src="http://www.yuanqishaonian.com/images/intr05.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="session intr06">
+            <div class="session_content">
+                <div class="intr_content">
+                    <img class="intr_tip" src="http://www.yuanqishaonian.com/images/tip.png" />
+                    <h3>海量高颜酒友，主动搭讪</h3>
+                    <p>
+                        线下酒吧没去过？想去体验一下？<br />
+                        找不到朋友一起嗨皮一起玩？<br />
+                        深夜无聊睡不着？<br />
+                        在这里都不会成为问题
+                    </p>
+                </div>
+                <div class="intr_image_content">
+                    <img class="intr_image" src="http://www.yuanqishaonian.com/images/intr03.png" />
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</body>
+
+</html>
